@@ -469,7 +469,8 @@
     <!-- fin planes -->
 
 
-    <!-- Inicio puntos lavado -->
+    
+    <!-- Inicio de ubicacion  -->
     <div class="location">
         <div class="container">
             <div class="row">
@@ -521,38 +522,48 @@
                         </div>
                     </div>
                 </div>
-                    <div class="col-lg-5">
-                    <div class="location-form">
-                    <h3> Reserva tu cita </h3>
-                        <form action="php\reservar_cita.php" method="POST">
-
-                            <div class="control-group">
+                <div class="col-lg-5">
+                    <div  style="background-color:#124442; box-shadow: 0 0 100px rgba(0, 0, 0, 0.5); border-radius: 20px;"class="location-form">
+                        <h3 style="text-align: center; "> Reserva tu cita </h3>
+                        <form  style=" background-color: #124442;
+                                padding: 40px;
+                                border-radius: 20px;
+                                box-shadow: 0 0 5 0px rgba(0, 0, 0, 0.3);
+                                width: 100%;
+                                max-width: 600px;"action="php\reservar_cita.php" method="POST">
+                            <div style="box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);"class="control-group">
                                 <input type="text" class="form-control" placeholder="Nombre" name="name" id="name" required="required" />
                             </div>
-                            <div class="control-group">
+                            <div style="box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);"class="control-group" class="control-group">
                                 <input type="email" class="form-control" placeholder="Email" name="email" id="email" required="required" />
                             </div>
-                            <div class="control-group">
+                            <div style="box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);"class="control-group" class="control-group">
                                 <input type="telephone" class="form-control" placeholder="Telefono" name="telefono" id="telefhone" required="required" />
                             </div>
 
-                            <fieldset class="fieldset">
+                            <fieldset style="color: #ffffff; border: 1px solid #7f8c8d;
+                                            border-radius: 5px;
+                                            padding: 10px;
+                                            margin-bottom: 15px;
+                                            background-color: #124442;
+                                            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+                                            ">
 
-                            <legend class="legend">Tipo de lavado :</legend>
+                            <legend style="padding: 0 10px; color: #ffffff; ">Tipo de lavado :</legend>
             
-                            <label class="labelform">
+                            <label style=" display: block; margin-bottom: 8px;">
                             <input type="radio" name="tipo_servicio" value="Lavado basico" required>
                             Lavado basico
                             </label>
                             <br>
             
-                            <label class="labelform">
+                            <label style=" display: block; margin-bottom: 8px;">
                             <input type="radio" name="tipo_servicio" value="Limpieza premiun" required>
                             Limpieza premiun
                             </label>
                             <br>
 
-                            <label class="labelform">
+                            <label style=" display: block; margin-bottom: 8px;">
                             <input type="radio" name="tipo_servicio" value="Limpieza completa" required>
                             Limpieza completo
                             </label>
@@ -560,16 +571,22 @@
 
                             </fieldset>
 
-                            <fieldset>
-                            <legend class="legend">Selecciona el lugar :</legend>
+                            <fieldset style="color: #ffffff; border: 1px solid #7f8c8d;
+                                            border-radius: 5px;
+                                            padding: 10px;
+                                            margin-bottom: 15px;
+                                            background-color: #124442;
+                                            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+                                            ">
+                            <legend style="padding: 0 10px; color: #ffffff; ">Selecciona el lugar :</legend>
             
-                            <label class="labelform">
+                            <label style=" display: block; margin-bottom: 8px;">
                             <input type="radio" name="opcion_lugar" value="San mateo" required>
                             San mateo
                             </label>
                             <br>
             
-                            <label class="labelform">
+                            <label style=" display: block; margin-bottom: 8px;">
                             <input type="radio" name="opcion_lugar" value="El altico" required>
                             El altico
                             </label>
@@ -636,8 +653,8 @@
                                     }
                                 }
         
-                              // Llamar a la función con el rango deseado
-                            generarOpcionesDeHora('09:00', '14:00');
+        // Llamar a la función con el rango deseado
+        generarOpcionesDeHora('09:00', '14:00');
     </script>
                     </div>
                 </div>
