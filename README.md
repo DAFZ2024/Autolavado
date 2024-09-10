@@ -9,4 +9,4 @@ Al entrar en el sitio el usuario se encontrara con informacion de la empresa, se
 
 Este proyecto le falta algunas cosas las cuales las ire agregando conforme vaya aprendiendolas .
 se te sirve mi codigo esta a tu disposicion 
-y si deseas contribuir te agradesco.
+y si deseas contribuir te lo agradeseria.
