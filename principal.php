@@ -523,62 +523,62 @@
                     </div>
                 </div>
                 <div class="col-lg-5">
-                    <div  style="background-color:#124442; box-shadow: 0 0 100px rgba(0, 0, 0, 0.5); border-radius: 20px;"class="location-form">
+                    <div  style="background-color:#c0d0ae; box-shadow: 0 0 100px rgba(0, 0, 0, 0.5); border-radius: 20px;"class="location-form">
                         <h3 style="text-align: center; "> Reserva tu cita </h3>
-                        <form  style=" background-color: #124442;
+                        <form  style=" background-color: #c0d0ae;
                                 padding: 40px;
                                 border-radius: 20px;
                                 box-shadow: 0 0 5 0px rgba(0, 0, 0, 0.3);
                                 width: 100%;
                                 max-width: 600px;"action="php\reservar_cita.php" method="POST">
-                            <div style="box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);"class="control-group">
+                            <div style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"class="control-group">
                                 <input type="text" class="form-control" placeholder="Nombre" name="name" id="name" required="required" />
                             </div>
-                            <div style="box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);"class="control-group" class="control-group">
+                            <div style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"class="control-group" class="control-group">
                                 <input type="email" class="form-control" placeholder="Email" name="email" id="email" required="required" />
                             </div>
-                            <div style="box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);"class="control-group" class="control-group">
+                            <div style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"class="control-group" class="control-group">
                                 <input type="telephone" class="form-control" placeholder="Telefono" name="telefono" id="telefhone" required="required" />
                             </div>
 
-                            <fieldset style="color: #ffffff; border: 1px solid #7f8c8d;
+                            <fieldset style="color: #000000; border: 1px solid #7f8c8d;
                                             border-radius: 5px;
                                             padding: 10px;
                                             margin-bottom: 15px;
-                                            background-color: #124442;
-                                            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+                                            background-color: #c0d0ae;
+                                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                                             ">
 
-                            <legend style="padding: 0 10px; color: #ffffff; ">Tipo de lavado :</legend>
+                                <legend style="padding: 0 10px; color: #000000; ">Tipo de lavado :</legend>
             
-                            <label style=" display: block; margin-bottom: 8px;">
-                            <input type="radio" name="tipo_servicio" value="Lavado basico" required>
-                            Lavado basico
-                            </label>
-                            <br>
+                                <label style=" display: block; margin-bottom: 8px;">
+                                <input type="radio" name="tipo_servicio" value="Lavado basico" required>
+                                Lavado basico
+                                </label>
+                                <br>
             
-                            <label style=" display: block; margin-bottom: 8px;">
-                            <input type="radio" name="tipo_servicio" value="Limpieza premiun" required>
-                            Limpieza premiun
-                            </label>
-                            <br>
+                                <label style=" display: block; margin-bottom: 8px;">
+                                <input type="radio" name="tipo_servicio" value="Limpieza premiun" required>
+                                Limpieza premiun
+                                </label>
+                                <br>
 
-                            <label style=" display: block; margin-bottom: 8px;">
-                            <input type="radio" name="tipo_servicio" value="Limpieza completa" required>
-                            Limpieza completo
-                            </label>
-                            <br>
+                                <label style=" display: block; margin-bottom: 8px;">
+                                <input type="radio" name="tipo_servicio" value="Limpieza completa" required>
+                                Limpieza completo
+                                </label>
+                                <br>
 
                             </fieldset>
 
-                            <fieldset style="color: #ffffff; border: 1px solid #7f8c8d;
+                            <fieldset style="color: #000000; border: 1px solid #7f8c8d;
                                             border-radius: 5px;
                                             padding: 10px;
                                             margin-bottom: 15px;
-                                            background-color: #124442;
-                                            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+                                            background-color: #c0d0ae;
+                                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                                             ">
-                            <legend style="padding: 0 10px; color: #ffffff; ">Selecciona el lugar :</legend>
+                            <legend style="padding: 0 10px; color: #000000; ">Selecciona el lugar :</legend>
             
                             <label style=" display: block; margin-bottom: 8px;">
                             <input type="radio" name="opcion_lugar" value="San mateo" required>
@@ -597,13 +597,13 @@
                             <label style=" display: block;
                                             margin-bottom: 10px;
                                             font-size: 18px;
-                                            color: #ecf0f1;" for="fecha">Selecciona una fecha:</label>
+                                            color: #000000;" for="fecha">Selecciona una fecha:</label>
                             <input style="width: 100%;
                                             padding: 10px;
                                             border: 2px solid #1abc9c;
                                             border-radius: 5px;
                                             font-size: 16px;
-                                            color: #2c3e50;
+                                            color: #000000;
                                             background-color: #ecf0f1;
                                             box-sizing: border-box; 
                                             transition: border-color 0.3s, box-shadow 0.3s; "
@@ -614,7 +614,7 @@
                             <label  style="display: block;
                                             margin-bottom: 10px;
                                             font-size: 18px;
-                                            color: #ecf0f1;" for="hora">Selecciona una hora:</label>
+                                            color: #000000;" for="hora">Selecciona una hora:</label>
                             <select style="margin-bottom: 15px;
                                             max-width: 400px;
                                             margin: 0 auto; 
@@ -653,9 +653,9 @@
                                     }
                                 }
         
-        // Llamar a la función con el rango deseado
-        generarOpcionesDeHora('09:00', '14:00');
-    </script>
+                               // Llamar a la función con el rango deseado
+                                generarOpcionesDeHora('09:00', '14:00');
+                        </script>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,11 @@
 }
 
 body {
-    background: #f6f5f7;
+    background: #bbe1d4;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +16,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
     margin: -20px 0 50px;
+    overflow: hidden;
 }
 
 h1 {

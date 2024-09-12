@@ -1121,14 +1121,14 @@ a:focus {
 
 .location .location-form {
     padding: 45px 30px;
-    background-color: #124442;
+    background-color: #bbe1d4;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     width: 700px;
 }
 
 .location .location-form h3 {
-    color: #ffffff;
+    color: #000000;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -1144,7 +1144,7 @@ a:focus {
 
 .location .location-form .form-control {
     height: 35px;
-    background-color: #124442;
+    background-color: #c0d0ae;
     padding: 25px;
     border-radius: 20px;
     box-shadow: 0 0 5 0px rgba(115, 10, 10, 0.3);
@@ -1152,7 +1152,7 @@ a:focus {
 }
 
 .location .location-form .form-control::placeholder {
-    color: #ffffff;
+    color: #000000;
     opacity: 5;
 }
 
@@ -1162,13 +1162,13 @@ a:focus {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 15px;
-    background-color: #124442;
+    background-color: #bbe1d4;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .location .location-form .legend {
     padding: 0 10px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .location .location-form .labelform {
@@ -1192,81 +1192,6 @@ a:focus {
 @media(min-width: 576px) and (max-width: 991.89px) {
     .location .location-form .btn.btn-custom:hover {
         box-shadow: inset 650px 0 0 0 #202C45;
-    }
-}
-
-
-/*******************************/
-
-
-/******** agendar_cita CSS *********/
-
-
-/*******************************/
-
-.location1 {
-    position: relative;
-    width: 25%;
-    padding: 45px 0;
-}
-
-.location1 .location-form1 {
-    padding: 40px 30px;
-    background: #6f6e83;
-    border-radius: 30px;
-}
-
-.location1 .location-form1 h3 {
-    color: #202C45;
-    font-size: 25px;
-    font-weight: 700px;
-    margin-bottom: 25px;
-}
-
-.location1 .location-form1 .control-group1 {
-    margin-bottom: 15px;
-}
-
-.location1 .location-form1 .form-control1 {
-    height: 35px;
-    color: #202C45;
-    padding: 0 70px;
-    border-radius: 3px;
-    border: 1.3px solid #202C45;
-    background: transparent;
-}
-
-.location1 .location-form1 textarea.form-control1 {
-    height: 120px;
-    padding: 70px;
-}
-
-.location1 .location-form1 .form-control1::placeholder {
-    color: #202C45;
-    opacity: 1;
-}
-
-.location1 .location-form1 .form-control1:-ms-input-placeholder,
-.location1 .location-form1 .form-control1::-ms-input-placeholder {
-    color: #202C45;
-}
-
-.location1 .location-form1 .btn.btn-custom1 {
-    width: 90%;
-    color: #202C45;
-    background: #d3d0d0;
-    box-shadow: inset 0 0 0 0 #202C45;
-}
-
-.location1 .location-form1 .btn.btn-custom1:hover {
-    color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 400px 0 0 0 #202C45;
-}
-
-@media(min-width: 576px) and (max-width: 991.89px) {
-    .location1 .location-form1 .btn.btn-custom1:hover {
-        box-shadow: inset 650px 0 0 0 #0b350a;
     }
 }
 
