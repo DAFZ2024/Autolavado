@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: rgb(238, 250, 235);
+}
+
 :root {
     --color_text-primary: #e317a4;
     --color_text-secundary: #112c38;
@@ -41,13 +45,15 @@
 /**********************************/
 
 .top-bar {
-    height: 100px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: transparent;
+    background: rgb(238, 250, 235);
     padding: 0 20px;
     position: relative;
+    backdrop-filter: blur(30px);
+    padding-bottom: 100px;
 }
 
 .top-bar .logo {
@@ -97,7 +103,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #9aad78;
+    background: rgba(232, 235, 215, 0.857);
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -126,11 +132,11 @@
     cursor: pointer;
     opacity: 0;
     animation: animate 1s ease-in-out 0.6s 1 forwards;
-    border: 3px solid #b7a9a9;
+    border: 3px solid #f8f9f6;
     transition: 0.3s;
     color: #000000;
     font-size: 17px;
-    background-color: #dc8b2f;
+    background: rgb(201, 224, 195);
     border-radius: 30px;
     width: 150px;
     height: 50px;
@@ -212,7 +218,7 @@
 .item .content {
     position: absolute;
     top: 50%;
-    left: 100px;
+    left: 200px;
     width: 300px;
     text-align: left;
     color: #000000;
@@ -436,6 +442,7 @@
     padding: 100px 0px;
     background: var(--background-color);
     margin-top: 100px;
+    background: rgb(201, 224, 195);
 }
 
 .about {
